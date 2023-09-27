@@ -1,0 +1,48 @@
+header{
+    background-color: purple;
+}
+a{
+    color: greenyellow;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+main{
+   background-color: rgb(78, 2, 78);
+}
+footer{
+    background-color: purple;
+    color: greenyellow;
+}
+.secao-1{
+    background-color: black;
+}
+.secao-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 85px;
+}
+
+.card{
+   display: flex;
+}
+h2{
+    color: greenyellow;
+}
+h3{
+    color: greenyellow;
+}
+label{
+    color: greenyellow;
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 1%;
+}
